@@ -1,5 +1,5 @@
 {
-  "name": "cold-shield-89e92b",
+  "name": "sharp-net-25a1c4",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "cold-shield-89e92b",
+      "label": "sharp-net-25a1c4",
       "protocol": "http",
       "onAutoForward": "silent"
     }
